@@ -37,3 +37,43 @@ body{
     color: #21295c;
 }
 
+.btns{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.btns button{
+    width: 25%;
+    height: 50px;
+    margin: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    background: #3ba8db;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.btns button:hover{
+    background: #92f8ff80;
+}
+
+.parrafo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin: 30px 0 10px 0;
+}
+
+.parrafo p{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+
